@@ -53,9 +53,9 @@ function kotakBerlipat(determinant) {
             var hasil = ''
             for (var j=i; j<=i*determinant; j+=i) {
                 if (j%determinant==0) {
-                    hasil += '@\t'
+                    hasil += '@ '
                 } else {
-                    hasil += '*\t'
+                    hasil += '* '
                 }
             }
             console.log(hasil)
